@@ -1,0 +1,7 @@
+.book-read {
+  text-decoration: line-through;
+}
+
+.book-unread {
+  text-decoration: none;
+}
