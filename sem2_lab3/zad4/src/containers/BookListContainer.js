@@ -19,7 +19,7 @@ const getFilteredBooks = state => {
 
 const mapStateToProps = state => {
   return {
-    books: getFilteredBooks()
+    books: getFilteredBooks(state)
   };
 };
 
